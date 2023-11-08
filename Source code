@@ -1,0 +1,29 @@
+Source code
+
+When we make a game, we will use Python code, and our version controlled repository is GitHub.
+
+Our Code comments is:
+
+import random
+
+# Define a list of questions and their corresponding answers
+questions = [
+    {
+        "question": "What is the next number ( 1, 11, 88, 101, ?",
+        "options": ["A) 100", "B) 102", "C) 108", "D) 111"],
+        "answer": "D"
+    }
+]
+
+# ask a random question and get the user's answer
+def ask_question(question):
+    print(question["question"])
+    for option in question["options"]:
+        print(option)
+    user_answer = input("Your answer (A/B/C/D): ").upper()
+    return user_answer
+
+# Chech the user's answer
+def check_answer(question, user_answer):
+    return user_answer == question["answer"]
+
