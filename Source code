@@ -2,7 +2,7 @@ Source code
 
 When we make a game, we will use Python code, and our version controlled repository is GitHub.
 
-Our Code comments is:
+We will use Python code like that: 
 
 import random
 
@@ -26,4 +26,3 @@ def ask_question(question):
 # Chech the user's answer
 def check_answer(question, user_answer):
     return user_answer == question["answer"]
-
