@@ -1,4 +1,4 @@
-When you open the app, you will write your name.
+When you open the app, you will write your name. The game will use the name provided to refer to the player throughout gameplay; this data will not be saved as login.
 Background color is purple.
 When you start the game, the scoreboard will be at the top right. Thhe top left will show the question number and total number of questions.
 The center will show the question, and under the question, there will be 4 answer choices.
