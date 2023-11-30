@@ -24,13 +24,15 @@ label start:
 
     # These display lines of dialogue.
 
-    e "Hello Player! Welcome to the Quiz Game. "
+    e "Hello Chosen Player! Welcome to the Game. "
 
     e "In this game, you will have to answer questions that are displayed on the screen in order to earn points. "
 
     e "As you answer more questions correctly, the difficulty will become harder, and the randomness of the questions will increase. "
 
-    e "Good luck!"
+    e "If you lose..."
+
+    e "Good luck! Trust me you'll need it."
 
     # This ends the game.
 
