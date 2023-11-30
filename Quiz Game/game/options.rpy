@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Quiz Game")
+define config.name = _("ISP Riddle Me This")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
